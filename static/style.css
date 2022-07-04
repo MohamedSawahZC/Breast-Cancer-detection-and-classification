@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.mainContainer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#353535;
+    color: white;
+}
+.headContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+.headContainer h1{
+    color: white;
+    font-weight: bold;
+}
+.logo{
+    width:  15rem;
+}
+.predImage{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    width: 20rem;
+    border-radius: 5px;
+}
+
+p{
+   font-size: xx-large;
+   font-weight: bold;
+}
+
